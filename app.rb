@@ -33,6 +33,6 @@ class App < Sinatra::Base
     when "subtract"
      @answer = params[:number2] - params[:number1]
    end 
-   "#{@answer}"
+   #"#{@answer}"
  end 
 end
