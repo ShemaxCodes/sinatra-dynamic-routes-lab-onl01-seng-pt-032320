@@ -31,5 +31,6 @@ class App < Sinatra::Base
    when "add"
      @answer = params[:number1] + params[:number2]
    end 
+   "#{@answer}"
  end 
 end
