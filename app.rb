@@ -33,11 +33,11 @@ class App < Sinatra::Base
    case @operation
      when "add"
      "#{@num1.to_i + @num2.to_i}"
-    when "add"
+    when "subtract"
+     "#{@num2.to_i - @num1.to_i}"
+    when "multiply"
      "#{@num1.to_i + @num2.to_i}"
-    when "add"
-     "#{@num1.to_i + @num2.to_i}"
-    when "add"
+    when "divide"
      "#{@num1.to_i + @num2.to_i}"
    end 
  end 
