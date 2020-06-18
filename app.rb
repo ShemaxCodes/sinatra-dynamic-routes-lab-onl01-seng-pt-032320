@@ -30,6 +30,8 @@ class App < Sinatra::Base
    case @operation 
    when "add"
      @answer = params[:number1] + params[:number2]
+     when "subtract"
+     @answer = params[:number2] - params[:number1]
    end 
    "#{@answer}"
  end 
