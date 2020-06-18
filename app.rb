@@ -29,7 +29,7 @@ class App < Sinatra::Base
    @operation = params[:operation]
    case @operation 
    when "add"
-     params[:number1] + params[:number2]
+     @answer = params[:number1] + params[:number2]
    end 
  end 
 end
