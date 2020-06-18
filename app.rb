@@ -32,7 +32,7 @@ class App < Sinatra::Base
    
    case @operation
    when "add"
-     "#{@num1.to_i} + #{@num2.to_i}"
+     "#{@num1.to_i + @num2.to_i}"
    end 
  end 
 end
